@@ -1,0 +1,1098 @@
+body {
+    overflow-x: hidden;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+html {
+    scroll-behavior: smooth;
+}
+#sectionHeader, 
+#sectionVideoAlign, 
+#sectionQuotesAlign, 
+#sectionFlipCards,
+#sectionBannersAlign, 
+#sectionOurpartnersAlign, 
+#sectionFunctionAutomatedAlign, 
+#sectionCultureCareer, 
+#sectionStayConnected, 
+#sectionAboutUsAlign, 
+#sectionFooter {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#sectionHeader ul li img {
+    width: 250px;
+    position: absolute;
+    left: 100px;
+    top: 35px;
+}
+#sectionHeader .contactUs {
+    position: absolute;
+    right: 100px;
+    top: 30px;
+    background: #283E46;
+    color: #fff;
+    padding: 14px 45px;
+    border-radius: 45px;
+    cursor: pointer;
+    border: 1px solid hidden;
+    transition: color 1.5s ease-out;
+    font-weight: 500;
+}
+#sectionHeader .contactUs:hover {
+    transition: color 1.5s ease-out;
+    cursor: pointer;
+    background: #fff;
+    color: #283E46;
+    border: 1px solid #283E46;
+}
+
+.header-Container {
+    position: fixed;
+    z-index: 1;
+    background-color: #fff;
+    left: 0;
+    right: 0;
+    /* box-shadow: 0px 0px 35px 0px #c4c4c4; */
+    box-shadow: 5px 20px 38px -7px #c4c4c4;
+}
+/* End Header Section CSS */
+
+/* Start of Banner Section CSS*/
+
+#bannerImage {
+    margin: 90px 0 0 0;
+}
+
+/* End of Banner Section CSS*/
+
+/* Start of Quotes CSS */
+
+#sectionQuotes {
+    background-color: #283E46;
+    padding: 50px 50px;
+}
+#sectionQuotesAlign p {
+    font-size: 32px;
+    font-weight: 300;
+    word-spacing: 2px;
+    color: #fff;
+}
+#sectionQuotesAlign p strong {
+    font-weight: 700;
+    color: #D9A83A;
+}
+#sectionQuotesAlign h2 {
+    font-size: 30px;
+    margin: 15px 0 0 0;
+    color: #D9A83A;
+}
+
+/* End of Quotes CSS */
+
+#sectionBanners {
+    text-align: center;
+    /* background-color: #C4C4C4; */
+    height: 400px;
+    margin: 40px 0 0 0;
+}
+
+/**/
+#bannerSection .text {
+    color: white;
+    top: 43%;
+    font-size: 7vw;
+}
+#bannerSection .qOdea {
+    color: #D9A83A;
+}
+/**/
+
+/* Start Header Section CSS */
+#sectionHeader {
+    padding: 70px 0 0 0;
+}
+#sectionHeader h2 {
+    font-weight: 300;
+    font-size: 60px;
+    padding: 30px 0 0 0;
+    background-image: url(/img/Logo.png) no-repeat;
+}
+#sectionHeader a.headerContactUs {
+    display: inline-block;
+    margin: -18px 170px;
+    position: absolute;
+    background: #000;
+    color: #fff;
+    padding: 10px 45px;
+    border-radius: 45px;
+    font-weight: 500;
+    border: 1px solid hidden;
+    transition: color 1.5s ease-out;
+} 
+
+
+#sectionBanners {
+    text-align: center;
+     background-color: #C4C4C4; 
+     height: 400px; 
+     margin: 40px 0 0 0;
+}
+
+#bannerSection .content {
+    text-align: center;
+    /* background-color: #C4C4C4; */
+ 
+    padding: 0px 12px;
+    position: absolute;
+    margin: 40px 0 0 0;
+    font-size: 3vw;
+    top: 57%;
+    width: 100%;
+    color: whitesmoke;
+    font-weight: 700;
+  }
+
+  #bannerSection .content1 {
+    text-align: center;
+    /* background-color: #C4C4C4; */
+ 
+    padding: 0px 12px;
+    position: absolute;
+    margin: 40px 0 0 0;
+    /* bottom: 220px; */
+    width: 100%;
+    color: whitesmoke;
+    font-size: 3vw;
+    font-weight: 700;
+    top: 67%;
+  }
+
+  #bannerSection .contentq {
+    text-align: center;
+    /* background-color: #C4C4C4;  */
+
+    padding: 0px 12px;
+    position: absolute;
+    margin: 40px 0 0 0;
+    bottom: 252px;
+    width: 100%;
+    color: whitesmoke;
+    font-size: 2vmax;
+    font-weight: 700;
+  }
+
+#bannerSection .contentqq {
+    text-align: center;
+    /* background-color: #C4C4C4;  */
+  
+    padding: 0px 12px;
+    position: absolute;
+    margin: 40px 0 0 0;
+    bottom: 220px;
+    width: 100%;
+    color: whitesmoke;
+    font-size: 2vmax; 
+    font-weight: 700;
+  } 
+
+  #bannerSection .contente {
+    text-align: center; 
+    /* background-color: #C4C4C4;  */
+ 
+    padding: 0px 12px;
+    position: absolute;
+    margin: 40px 0 0 0;
+    bottom: 252px;
+    width: 100%;
+    color: whitesmoke;
+    font-size: 2vmax;
+    font-weight: 700;
+  } 
+
+  #bannerSection .contentes {
+    text-align: center;
+     /* background-color: #C4C4C4; */
+    
+    padding: 0px 12px; 
+    position: absolute;
+    margin: 40px 0 0 0;
+    bottom: 220px;
+    width: 100%;
+    color: whitesmoke;
+    font-size: 2vmax;
+    font-weight: 700;
+  } 
+
+#sectionHeader a.headerContactUs:hover {
+    transition: color 1.5s ease-out;
+    color: #000;
+    border: 1px solid black;
+    background-color: #fff;
+}*/
+#sectionHeader ul li img {
+    width: 250px;
+    position: absolute;
+    left: 5%;
+    top: 42%;
+}
+#sectionHeader .contactUs {
+    position: absolute;
+    right: 100px;
+    top: 30px;
+    background: #283E46;
+    color: #fff;
+    padding: 14px 45px;
+    border-radius: 45px;
+    cursor: pointer;
+    border: 1px solid hidden;
+    transition: color 1.5s ease-out;
+    font-weight: 500;
+}
+#sectionHeader .contactUs:hover {
+    transition: color 1.5s ease-out;
+    cursor: pointer;
+    background: #fff;
+    color: #283E46;
+    border: 1px solid #283E46;
+}
+
+.header-Container {
+    position: fixed;
+    z-index: 1;
+    background-color: #fff;
+    left: 0;
+    right: 0;
+    /* box-shadow: 0px 0px 35px 0px #c4c4c4; */
+    box-shadow: 5px 20px 38px -7px #c4c4c4;
+}
+/* End Header Section CSS */
+
+/* Start of Banner Section CSS*/
+
+#bannerImage {
+    margin: 90px 0 0 0;
+}
+
+/* End of Banner Section CSS*/
+
+/* Start of Quotes CSS */
+
+#sectionQuotes {
+    background-color: #283E46;
+    padding: 50px 50px;
+}
+#sectionQuotesAlign p {
+    font-size: 32px;
+    font-weight: 300;
+    word-spacing: 2px;
+    color: #fff;
+}
+#sectionQuotesAlign p strong {
+    font-weight: 700;
+    color: #D9A83A;
+}
+#sectionQuotesAlign h2 {
+    font-size: 30px;
+    margin: 15px 0 0 0;
+    color: #D9A83A;
+}
+
+/* End of Quotes CSS */
+
+#sectionBanners {
+    text-align: center;
+    background-color: #C4C4C4;
+    height: 400px;
+    margin: 40px 0 0 0;
+}
+/*Header section banner purpose*/
+#slider {
+    margin: 0 auto;
+    width: 800px;
+    max-width: 100%;
+    text-align: center;
+ }
+ #slider input[type=radio] {
+    display: none;
+ }
+ #slider label {
+    cursor:pointer;
+    text-decoration: none;
+ }
+ #slides {
+    padding: 10px;
+    /*border: 3px solid #ccc;
+    background: #fff;*/
+    position: relative;
+    z-index: 1;
+ }
+ #overflow {
+    width: 100%;
+    overflow: hidden;
+ }
+ #slide1:checked ~ #slides .inner {
+    margin-left: 0;
+ }
+ #slide2:checked ~ #slides .inner {
+    margin-left: -100%;
+ }
+ #slide3:checked ~ #slides .inner {
+    margin-left: -200%;
+ }
+ #slide4:checked ~ #slides .inner {
+    margin-left: -300%;
+ }
+ #slides .inner {
+    transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    width: 400%;
+    line-height: 0;
+    height: 300px;
+ }
+ #slides .slide {
+    width: 25%;
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /*color: #fff;*/
+ }
+ #slides .slide_1 {
+    background: #c4c4c4;
+ }
+ #slides .slide_2 {
+    background: #c4c4c4;
+ }
+ #slides .slide_3 {
+    background: #c4c4c4;
+ }
+ #slides .slide_4 {
+    background: #c4c4c4;
+ }
+ #controls {
+    margin: -180px 0 0 0;
+    width: 100%;
+    height: 50px;
+    z-index: 3;
+    position: relative;
+ }
+ #controls label {
+    transition: opacity 0.2s ease-out;
+    display: none;
+    width: 50px;
+    height: 50px;
+    opacity: .4;
+ }
+ #controls label:hover {
+    opacity: 1;
+ }
+ #slide1:checked ~ #controls label:nth-child(2),
+ #slide2:checked ~ #controls label:nth-child(3),
+ #slide3:checked ~ #controls label:nth-child(4),
+ #slide4:checked ~ #controls label:nth-child(1) {
+    /*background: url(https://image.flaticon.com/icons/svg/130/130884.svg) no-repeat;*/
+    float:right;
+    margin: 0 -50px 0 0;
+    display: block;
+ }
+ #slide1:checked ~ #controls label:nth-last-child(2),
+ #slide2:checked ~ #controls label:nth-last-child(3),
+ #slide3:checked ~ #controls label:nth-last-child(4),
+ #slide4:checked ~ #controls label:nth-last-child(1) {
+    /*background: url(https://image.flaticon.com/icons/svg/130/130882.svg) no-repeat;*/
+    float:left;
+    margin: 0 0 0 -50px;
+    display: block;
+ }
+ #bullets {
+    margin: 126px 0 0;
+    text-align: center;
+ }
+ #bullets label {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius:100%;
+    background: #fff;
+    margin: 0 10px;
+ }
+ #slide1:checked ~ #bullets label:nth-child(1),
+ #slide2:checked ~ #bullets label:nth-child(2),
+ #slide3:checked ~ #bullets label:nth-child(3),
+ #slide4:checked ~ #bullets label:nth-child(4) {
+    background: #444;
+ }
+ @media screen and (max-width: 900px) {
+    #slide1:checked ~ #controls label:nth-child(2),
+    #slide2:checked ~ #controls label:nth-child(3),
+    #slide3:checked ~ #controls label:nth-child(4),
+    #slide4:checked ~ #controls label:nth-child(1),
+    #slide1:checked ~ #controls label:nth-last-child(2),
+    #slide2:checked ~ #controls label:nth-last-child(3),
+    #slide3:checked ~ #controls label:nth-last-child(4),
+    #slide4:checked ~ #controls label:nth-last-child(1) {
+       margin: 0;
+    }
+    #slides {
+       max-width: calc(100% - 140px);
+       margin: 0 auto;
+    }
+ }
+/* Header Section Banner Purpose*/
+#sectionHeader img {
+    width: 200px;
+    margin: -30px 0 0 0;
+} 
+.flip-card {
+    background-color: transparent;
+    width: 280px;
+    height: 250px;
+    perspective: 600px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+
+  .flip-card-front h2 {
+      font-weight: bold !important;
+      color: #fff;
+      text-shadow: 4px 4px 10px #000;
+  }
+
+.qKnowledgeFrontImage {
+      /* background: url('../img/QKnowledge\ \(1\).svg') no-repeat; */
+      /* background: url(../img/Qknowledgee.png) no-repeat; */
+      background: url('../img/pillarimages/qknowledge_pic.jpg') no-repeat;
+      /* background-size: 310px 250px; */
+      background-position: center;
+      background-size: cover;
+ }
+ .qServiceFrontImage {
+     background: url('../img/pillarimages/QServices.svg') no-repeat;
+     background-size: cover;
+     background-position: center; 
+     /* background-size: 280px 250px; */
+ }
+ .qLabsFrontImage {
+    background: url('../img/pillarimages/qlab_pic.jpg') no-repeat;
+    /* background-size: 280px 250px; */
+    background-size: cover;
+    background-position: center; 
+}
+.qCloudFrontImage {
+    /* background: url('../img/QCloud.svg') no-repeat; */
+    background: url('../img/pillarimages/qcloud_pic.jpg') no-repeat;
+    /* background-size: 280px 250px; */
+    background-size: cover;
+    background-position: center; 
+}
+
+  /* Changing the font weight*/
+
+  .flip-card-front h2 {
+      font-weight: 400;
+      margin: 120px 0;
+  }
+
+  .flip-card-back h1 {
+      font-weight: 500;
+      margin: 45px 0 10px 0;
+      text-align: center;
+  }
+  
+  .flip-card-back {
+    background-color: #76B7B7;
+    color: #000;
+    transform: rotateY(180deg);
+    text-align: center;
+    font-size: 16px;
+    padding: 0 10px;
+  }
+  
+  #flipBlock #FlipCards {
+    display: inline-block;
+    margin: 25px 8px;
+  }
+#sectionBannersAlign h2 {
+    padding:80px 0 70px 0;
+    font-size: 60px;
+    font-weight: 300;
+}
+#sectionBannersAlig p {
+    font-size: medium;
+}
+#sectionVideo {
+    text-align: center;
+    background-color: #C2AAAA;
+    height: 700px;
+}
+#sectionVideoAlign h2 {
+    font-size: 60px;
+    font-weight: 300;
+    padding: 250px 0 0 0;
+}
+#sectionVideoAlign p {
+    font-size: small;
+    font-weight: 300;
+}
+#sectionOurpartnersAlign h2 {
+    margin: 80px 0 20px 0;
+    font-weight: 700;
+    font-size: 75px;
+}
+
+#sectionOurpartnersAlign img {
+    margin: 0 0 15px 0;
+}
+
+#sectionOurpartners {
+    margin: 0 0 40px 0;
+}
+
+ul {
+    list-style: none;
+}
+ul li {
+    display: inline-block;
+}
+/* Start of Gradient Color for Headings*/
+
+h2.headerGradient {
+    background: #283E46;
+    font-size: 70px;
+    background: -webkit-linear-gradient(to right, #283E46 0%, #76B7B7 80%);
+    background: -moz-linear-gradient(to right, #283E46 0%, #76B7B7 80%);
+    background: linear-gradient(to right, #283E46 0%, #76B7B7 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* End of Gradient Color for Headings*/
+
+/* Start Our Stats CSS*/
+#sectionFunctionAutomated {
+    margin: 0 0 150px 0;
+}
+#sectionFunctionAutomatedAlign h2 {
+    font-weight: 700;
+    font-size: 75px;
+    padding: 100px 0 60px 0;
+}
+#sectionFunctionAutomatedAlign .nums ul li {
+    margin: 0 40px;
+    font-size: 30px;
+    font-weight: 300;
+}
+#sectionFunctionAutomatedAlign .nums .num {
+    font-size: 70px;
+    font-weight: bold;
+    color: #283E46;
+}
+/* #sectionFunctionAutomatedAlign a {
+    display: inline-block;
+    /*margin: 6px 50px;
+}*/
+/* End of Our Stats CSS */
+
+a.bpAutomateMain {
+    margin: 5px 30px;
+}
+a.funAutomatedMain {
+    margin: 0 16px;
+}
+a.bpAutomated, a.funAutomated {
+    display: block;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+    padding: 50px 50px;
+}
+a.bpAutomated {
+    margin: 0 70px;
+}
+a.funAutomated {
+    margin: 0 40px;
+}
+
+/* Start of Culture and Career CSS */
+#sectionCultureCareer div {
+    display: inline-block;
+    margin: 0 80px;
+}
+#sectionCulture {
+    background-color: #76B7B7;
+    width: 350px;
+    height: 250px;
+}
+#sectionCulture h2 {
+    margin: 140px 0 0 0;
+}
+#sectionCulture p {
+    padding: 10px 0 0 0;
+}
+#sectionCareer .firstH2 {
+    margin: 120px 0 0 0;
+}
+#sectionCareer .ThirdH2 {
+    font-weight: 500;
+    margin: 0 0 40px 0;
+}
+#sectionCareer h2 {
+font-size: 34px;
+font-weight: 200;
+}
+#sectionCareer a {
+    background-color: #283E46;
+    color: #fff;
+    padding: 20px 100px;
+    font-size: 30px;
+    border-radius: 100px;
+    font-weight: 300;
+    transition: color 1.5s ease-out;
+    border: 1px solid hidden;
+}
+#sectionCareer a:hover {
+    transition: color 1.5s ease-out;
+    border: 1px solid #283E46;
+    color: #283E46;
+    background-color: #fff;
+}
+/* End of Culture and Career CSS */
+
+
+/* Start of Stay Connected CSS */
+#sectionStayConnected {
+    margin: 80px auto;
+    padding: 50px 0;
+    /* box-shadow: 3px 8px 19px -7px #000; */
+    box-shadow: 0px 8px 35px 0px #c4c4c4;
+}
+#sectionStayConnected h2 {
+    font-size: 75px;
+    font-weight: 700;
+    margin: 20px auto;
+}
+#sectionStayConnected input {
+    padding: 10px 40px;
+    margin: 5px;
+    font-size: 16px;
+}
+#sectionStayConnected #enable_button {
+    cursor: not-allowed;
+}
+
+#sectionStayConnected .button {
+    margin: 5px;
+    padding: 11px 108px;
+    background-color: #283E46;
+    color: #fff;
+    border: 1px solid #283E46;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 1.5s ease-out;
+}
+#sectionStayConnected .button:hover {
+    background-color: #fff;
+    color: #283E46;
+    border: 1px solid #283E46;
+    transition: color 1.5s ease-out;
+}
+/* #policy {
+    margin: 15px 0 0 0;
+}
+#sectionStayConnected #policy p {
+    word-spacing: 2px;
+}
+#sectionStayConnected #policy a.qualescePolicy {
+    text-decoration: underline;
+} */
+/* End of Stay Connected CSS */
+
+/* Start of About Us CSS */
+/* #sectionAboutUs {
+    background-color: #C4C4C4;
+    height: 300px;
+    margin: 120px 0 0px 0;
+} */
+#sectionAboutUs .headerGradient {
+  margin: 0 auto;
+}
+
+#sectionAboutUsAlign h2 {
+  font-size: 75px;
+  font-weight: 700;
+  padding: 40px 0 20px 0;
+}
+#sectionAboutUsAlign p {
+  text-align: justify;
+  margin: 15px 0 0 0;
+  line-height: 25px;
+  word-spacing: 1.1px;
+  font-size: 18px;
+  color: #283e46;
+  /* cursor: url('../img/qlogo.svg'), auto; */
+}
+#sectionAboutUsAlign p::selection {
+  color: #fff;
+  background-color: #000;
+}
+#sectionAboutUsAlign p span {
+  font-weight: 700;
+}
+/* End of About Us CSS */
+
+/* footer {
+  background-color: #c4c4c4;
+} */
+/* #sectionFooterUpper {
+  padding: 120px 0 0 0;
+} */
+#sectionFooterUpper h2 {
+  font-weight: 600;
+  font-size: 22px;
+  margin: 25px 0;
+  color: #283e46;
+}
+/* #sectionFooterMiddle {
+  padding: 80px 0 20px 0;
+  margin: -45px 0 0 0;
+} */
+#sectionFooterMiddle a {
+  display: inline-block;
+  margin: 0 10px;
+  /* color: #fff; */
+  /* box-shadow: -webkit-box-shadow: 2px 7px 21px 1px rgba(0,0,0,0.52);  */
+  /* box-shadow: 2px 7px 21px 1px rgba(0,0,0,0.52); */
+  border-radius: 50%;
+}
+#sectionFooterLower h2{
+  margin: 30px 0 5px 0;
+  font-weight: 500;
+  color: #283e46;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+/* Start of Chat box CSS */
+
+a.chatboxLogo img {
+    /* border: 5px solid green;
+    border-radius: 50%; */
+    width: 75px;
+}
+a.chatboxLogo {
+    right: 0;
+    position: fixed;
+    bottom: 60px;
+    /* margin-bottom: 100px; */
+    /* z-index: 1; */
+}
+
+/* End of Chat Box CSS */
+
+
+
+/**/
+
+* {box-sizing: border-box}
+/* body {font-family: Verdana, sans-serif; margin:0} */
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.mySlides img {
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: auto;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  /* max-width: 1000px; */
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  /* color: #000; */
+  padding: 8px 12px;
+  position: absolute;
+  /* bottom: 280px; */
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* .fade img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+} */
+
+/* The dots/bullets/indicators */
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+/*****************************************
+****Responsive design starts from here****
+*****************************************/
+
+@media only screen and (max-width: 800px) {
+    body {
+        overflow-x: hidden;
+    }
+    #sectionHeader ul li img {
+        left: 33%;
+    }
+    #sectionHeader .contactUs {
+        display: none;
+    }    
+    #sectionQuotesAlign p {
+        font-size: 18px;
+    }
+    #sectionQuotesAlign h2 {
+        font-size: 20px;
+    }
+    #sectionOurpartnersAlign h2 {
+        font-size: 50px;
+    }
+    #sectionOurpartnersAlign img {
+        width: 66px;
+    }
+    #sectionFunctionAutomatedAlign h2 {
+        font-size: 50px;
+        padding: 70px 0 35px 0;
+    }
+    #sectionFunctionAutomatedAlign .nums {
+        margin: 0 0 -60px 0;
+    }
+    #sectionFunctionAutomatedAlign .nums ul li {
+        font-size: 15px;
+        margin: 3% 6%;
+    }
+    #sectionFunctionAutomatedAlign .nums .num {
+        font-size: 35px;
+    }
+    #sectionCultureCareer div {
+        margin: 50px 0 0 0;
+    }
+    #sectionCulture h2 {
+        margin: 50px 0 0 0;
+        padding: 100px 0 0 0;
+    }
+    #sectionCareer .firstH2 {
+        margin: 0 auto;
+    }
+    #sectionCareer a {
+        padding: 20px 65px;
+        font-size: 24px;
+    }
+    #sectionCareer h2 {
+        font-size: 26px;
+    }
+    #sectionStayConnected h2 {
+        font-size: 50px;
+    }
+    #sectionStayConnected input {
+        margin: 5px 5px;
+    }
+    #sectionStayConnected .button {
+        margin: 5px 5px;
+        padding: 11px 108px;
+    }
+    #sectionAboutUsAlign h2 {
+        font-size: 50px;
+    }
+    #sectionAboutUsAlign p {
+        margin: 15px 45px 0 45px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    #sectionFooterMiddle img {
+        width: 22px;
+        margin: 0 -3px;
+    }
+    a.chatboxLogo img {
+        width: 50px;
+    }
+}
+
+@media only screen and (max-width: 1190px) {
+    #sectionFunctionAutomatedAlign .nums ul li {
+        font-size: 18px;
+        margin: 20px 26px;
+    }
+    #sectionFunctionAutomatedAlign .nums .num {
+        font-size: 40px;
+    }
+    #sectionCultureCareer div {
+        display: inline-block;
+        margin: 30px 22px;
+    }
+    #sectionCareer a {
+        padding: 20px 80px;
+        font-size: 25px;
+    }
+    #sectionCareer h2 {
+        font-size: 26px;
+    }
+    #sectionStayConnected input {
+        margin: 5px auto;
+        display: block;
+    }
+    #sectionStayConnected .button {
+        margin: 5px auto;
+        padding: 11px 19%;
+    }
+    #sectionAboutUsAlign p {
+        margin: 15px 45px 0 45px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    a.chatboxLogo img {
+        width: 60px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    #sectionHeader ul li img {
+        left: 25%;
+    }
+}
+
+
+
+@media only screen and (max-width: 430px) {
+    #sectionHeader ul li img {
+        left: 18%;
+    }
+} 
+
+
+
+@media only screen and (max-width: 320px) {
+    #sectionHeader ul li img {
+        left: 10%;
+        width: 200px;
+    }
+}
+
+/*****************************************
+****Responsive design Ends here****
+*****************************************/
