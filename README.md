@@ -1,2 +1,2 @@
 # qualesce_Site
-Site developed by HTML, CSS, JS and Backend PHP Basic and hosted in GoDaddy
+  This is company site which is developed by using HTML, CSS.
